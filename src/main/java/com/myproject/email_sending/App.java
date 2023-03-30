@@ -58,6 +58,7 @@ public class App {
 		session.setDebug(true);
 		
 		//Step 2 : compose the message [text,multi media]
+		//MimeMessage class is implementation class of Message.
 		MimeMessage m = new MimeMessage(session);
 		
 		try {
